@@ -4,7 +4,7 @@ Este es un proyecto básico que utiliza Mongoose para realizar operaciones CRUD 
 
 El objetivo es que aprendas a seguir un paso a paso.
 
-NO copies y pegues el código. Haz cada paso entendiéndolo y sabiendo que hace cada parte del código.
+NO copies y pegues el código. Haz cada paso entendiéndolo y sabiendo qué hace cada parte del código.
 Usa internet para encontrar respuestas si algo no funciona o tienes alguna duda referente.
 
 ## Índice
@@ -61,7 +61,7 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 ## Paso 2: Conexión DB
 Después creamos la conexión de la base de datos a Mongo Atlas.
-Para ello un archivo .env que contiene url con la conexión a Mongo Atlas. Después creamos la carpeta config y dentro de ello el archivo config.js con el código que necesitamos para la coneción a la base de datos.
+Para ello un archivo .env que contiene url con la conexión a Mongo Atlas. Después creamos la carpeta config y dentro de ello el archivo config.js con el código que necesitamos para la conexión a la base de datos.
 
 Luego nos importaremos dicha conexión en index.js y llamamos la función para que cuando levantemos el servidor haga la conexión.
 
@@ -122,9 +122,9 @@ module.exports = User;
 ```
 
 ## Paso 4: Rutas y endpoints
-Por último crearemos las rutas y en ellas los diferentes endpoints(CRUD).
+Por último crearemos las rutas, y en ellas los diferentes endpoints (CRUD).
 
-Para ello creamos la carpeta routes y en ella el archivo users.js que hiremos completando con los diferentes endpoints:
+Para ello creamos la carpeta routes y en ella el archivo users.js que iremos completando con los diferentes endpoints:
 
 Ejemplo para el endpoint de crear un usuario nuevo:
 
